@@ -266,7 +266,7 @@
     margin-right: 5.5vw;
     position: relative;
     top:-63vw;
-    display: block;
+    display: none;
     width: 89%;
     height: 0;
   }
@@ -298,6 +298,9 @@
     width: 30%;
     height: 30%;
     top: 24vw;
+  }
+  .visible {
+    display: visible;
   }
   p {
     font-family: 'Montserrat', sans-serif; font-size: 1.429vw; font-weight: normal; vertical-align: top; text-align: left; line-height: 1.7vw;
