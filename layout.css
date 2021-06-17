@@ -291,6 +291,13 @@
     text-align: center;
     margin-top:-35vw;
     }
+  .sumka_text {
+    display: block;
+    position:relative;
+    width: 30%;
+    height: 30%;
+    top: 24vw;
+  }
   p {
     font-family: 'Montserrat', sans-serif; font-size: 1.429vw; font-weight: normal; vertical-align: top; text-align: left; line-height: 1.7vw;
   }
