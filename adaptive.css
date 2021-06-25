@@ -385,7 +385,7 @@
     height: 5vw;
   }
   .footer_container_m {
-    position: relative;
+    position: absolute;
     width: 100%;
     top:124vw;
     left:0;
