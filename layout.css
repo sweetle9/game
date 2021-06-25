@@ -4,6 +4,10 @@
     border: 0;
     box-sizing: border-box;
   }
+  iframe{
+          width: 100%;
+          border: 2px solid #ccc;
+      }
   html, body {
     height: 100%;
   }
