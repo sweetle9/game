@@ -18,6 +18,10 @@
     width: 100%;
     height: 100%;
   }
+  .nerds_iframe {
+    height: calc(100vh - 95px) !important;
+    width: 100% !important;
+  }
   .wrapper {
     max-width: 100%;
   }
@@ -209,7 +213,7 @@
   .footer {
     display: block;
     position: relative;
-    top:0;
+    top:59vw;
     margin-left:5.3vw;
     margin-right:5.3vw;
     height: 5vw;
@@ -250,9 +254,8 @@
     padding-left: 2vw;
   }
   .iframe_container {
-    overflow: hidden;
-    padding-top: 62.5%;
     position: relative;
+    display: block;
     margin-top: 10vw;
     margin-left: 5.5vw;
     margin-right: 5.5vw;
