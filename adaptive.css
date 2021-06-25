@@ -2,6 +2,12 @@
   .mobile {
     display: none;
   }
+  .iframe_container_m {
+   display: none;
+  }
+  .nerds_iframe_m {
+  display: none;
+  }
   .header_body_m {
     display: none;
   }
@@ -25,6 +31,12 @@
   .mobile {
     display: none;
   }
+  .iframe_container_m {
+   display: none;
+  }
+  .nerds_iframe_m {
+  display: none;
+  }
   .header_body_m {
     display: none;
   }
@@ -47,6 +59,12 @@
   .mobile {
     display: none;
   }
+  .iframe_container_m {
+   display: none;
+  }
+  .nerds_iframe_m {
+  display: none;
+  }
   .footer_m {
     display: none;
   }
@@ -66,6 +84,12 @@
   .mobile {
     display: none;
   }
+  .iframe_container_m {
+   display: none;
+  }
+  .nerds_iframe_m {
+  display: none;
+  }
   .footer_m {
     display: none;
   }
@@ -77,6 +101,12 @@
   }
   .header_body_m {
     display: none;
+  }
+  .iframe_container_m {
+   display: none;
+  }
+  .nerds_iframe_m {
+  display: none;
   }
   .header_menu_m {
     display: none;
@@ -94,6 +124,12 @@
   .header_m {
     display: none;
   }
+  .iframe_container_m {
+   display: none;
+  }
+  .nerds_iframe_m {
+  display: none;
+  }
   .header_body_m {
     display: none;
   }
@@ -103,6 +139,13 @@
 @media (max-width: 1024px) {
   .mobile {
     display: none;
+  }
+  .footer_container {
+    position: relative;
+    width: 100%;
+    top:59vw;
+    left:0;
+    height: 5vw;
   }
   .footer_m {
     display: none;
@@ -115,6 +158,12 @@
   }
   .header_body_m {
     display: none;
+  }
+  .iframe_container_m {
+   display: none;
+  }
+  .nerds_iframe_m {
+  display: none;
   }
   .header_menu_m {
     display: none;
@@ -129,6 +178,17 @@
   .mobile {
     display: block;
     position: relative;
+  }
+  .nerds_iframe_m {
+    height: calc(100vh - 95px) !important;
+    width: 100% !important;
+  }
+  .iframe_container_m {
+    position: relative;
+    display: block;
+    margin-top: 16vw;
+    margin-left: 5.5vw;
+    margin-right: 5.5vw;
   }
   .header_m {
     display: block;
@@ -327,7 +387,7 @@
   .footer_container_m {
     position: relative;
     width: 100%;
-    top:0;
+    top:124vw;
     left:0;
     height: 5vw;
   }
